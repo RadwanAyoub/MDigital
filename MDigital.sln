@@ -67,6 +67,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{0CDDE7FA-204E-4BA1-9478-6EBD43385213}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDigital.Website", "src\Website\website\MDigital.Website.csproj", "{2BECC48F-FAD8-4475-974D-E9C233EF1CDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4DE59F8C-A747-44FC-9568-639D4A651CE4} = {4DE59F8C-A747-44FC-9568-639D4A651CE4}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{548A7B3D-3E1F-4F43-88D6-95AD9CA81200}"
 EndProject
