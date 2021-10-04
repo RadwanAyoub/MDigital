@@ -43,18 +43,24 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="DI\RegisterContainer.cs" />
     <Compile Include="Factories\INavigationFactory.cs" />
     <Compile Include="Factories\NavigationFactory.cs" />
     <Compile Include="Mediators\INavigationMediator.cs" />
     <Compile Include="Mediators\NavigationMediator.cs" />
+    <Compile Include="Models\IHeaderNavigation.cs" />
+    <Compile Include="Models\ISecondaryNavigationItem.cs" />
+    <Compile Include="Models\ITertiaryNavigationItem.cs" />
     <Compile Include="Models\NavigationViewModel.cs" />
+    <Compile Include="ORM\GlassMappings.cs" />
+    <Compile Include="ORM\RegisterMappings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\INavigationService.cs" />
     <Compile Include="Services\NavigationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.Mvc">
-      <Version>5.2.7</Version>
+      <Version>5.2.4</Version>
     </PackageReference>
     <PackageReference Include="Sitecore.Kernel">
       <Version>10.0.0</Version>
@@ -76,7 +82,19 @@
       <Project>{9B72C426-123C-4782-BEF8-0D52E5F2A396}</Project>
       <Name>MDigital.Foundation.Logging</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\ORM\website\MDigital.Foundation.ORM.csproj">
+      <Project>{5e91a7d9-8e93-44fd-857f-f9ce145b6022}</Project>
+      <Name>MDigital.Foundation.ORM</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App_config\Include\Feature\Feature.Navigation.RegisterMappings.config" />
+    <None Include="App_config\Include\Feature\Feature.Navigation.RegisterContainer.config" />
+    <None Include="Views\Navigation\HeaderNavigation.cshtml" />
+    <None Include="Views\web.config" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config" />
+    <None Include="Web.Release.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

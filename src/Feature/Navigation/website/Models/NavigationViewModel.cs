@@ -2,6 +2,7 @@
 {
     public class NavigationViewModel
     {
+        IHeaderNavigation HeaderNavigation { get; set; }
         bool IsExperianceEditor { get; }
     }
 }

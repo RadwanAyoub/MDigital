@@ -1,16 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MDigital.Feautre.Navigation
+﻿namespace MDigital.Feautre.Navigation
 {
     public class Constants
     {
         public static class Components
         {
-            public static class Navigation
+            public static class HeaderNavigation
+            {
+                public static readonly string TemplateId = "";
+            }
+
+            public static class SecondaryNavigationItem
+            {
+                public static readonly string TemplateId = "";
+            }
+
+            public static class TertiaryNavigationItem
             {
                 public static readonly string TemplateId = "";
             }
