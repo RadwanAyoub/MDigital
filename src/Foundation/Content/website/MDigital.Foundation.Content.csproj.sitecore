@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <Site Server="demo.MDigital" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+</Project>
