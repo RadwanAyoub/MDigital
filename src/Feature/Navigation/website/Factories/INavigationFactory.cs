@@ -1,9 +1,9 @@
-﻿using MDigital.Feautre.Navigation.Models;
+﻿using MDigital.Feature.Navigation.Models;
 
-namespace MDigital.Feautre.Navigation.Factories
+namespace MDigital.Feature.Navigation.Factories
 {
     public interface INavigationFactory
     {
-        NavigationViewModel CreateHeaderNavigationViewModel(object navigationItemDataSource, bool isExperienceEditor);
+        NavigationViewModel CreateHeaderNavigationViewModel(IHeaderNavigation navigationItemDataSource, bool isExperienceEditor);
     }
 }

@@ -1,9 +1,10 @@
 ﻿using Glass.Mapper.Sc.Fields;
+using MDigital.Foundation.ORM.Models;
 using System.Collections.Generic;
 
-namespace MDigital.Feautre.Navigation.Models
+namespace MDigital.Feature.Navigation.Models
 {
-    public interface ISecondaryNavigationItem
+    public interface ISecondaryNavigationItem : IGlassBase
     {
         string LinkText { get; set; }
         Link LinkUrl { get; set; }

@@ -1,8 +1,8 @@
 ﻿using Glass.Mapper.Sc.Maps;
-using MDigital.Feautre.Navigation.Models;
-using static MDigital.Feautre.Navigation.Constants;
+using MDigital.Feature.Navigation.Models;
+using static MDigital.Feature.Navigation.Constants;
 
-namespace MDigital.Feautre.Navigation.ORM
+namespace MDigital.Feature.Navigation.ORM
 {
     public class HeaderNavigationGlassMappings : SitecoreGlassMap<IHeaderNavigation>
     {

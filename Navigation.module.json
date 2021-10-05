@@ -1,0 +1,21 @@
+{
+  "namespace": "Feature.Navigation",
+  "references": [
+    "Foundation.*",
+    "Feature.*"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Navigation",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/renderings/Feature/Navigation",
+        "database": "master"
+      }
+    ]
+  }
+}

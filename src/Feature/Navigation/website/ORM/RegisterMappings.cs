@@ -1,7 +1,7 @@
 ﻿using Glass.Mapper.Sc.Pipelines.AddMaps;
 using MDigital.Foundation.ORM.Extensions;
 
-namespace MDigital.Feautre.Navigation.ORM
+namespace MDigital.Feature.Navigation.ORM
 {
     public class RegisterMappings : AddMapsPipeline
     {

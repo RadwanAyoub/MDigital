@@ -1,10 +1,10 @@
-﻿using MDigital.Feautre.Navigation.Mediators;
+﻿using MDigital.Feature.Navigation.Mediators;
 using MDigital.Foundation.Core.Exceptions;
 using Sitecore.Mvc.Controllers;
 using System.Web.Mvc;
-using static MDigital.Feautre.Navigation.Constants;
+using static MDigital.Feature.Navigation.Constants;
 
-namespace MDigital.Feautre.Navigation.Controllers
+namespace MDigital.Feature.Navigation.Controllers
 {
     public class NavigationController : SitecoreController
     {
@@ -23,7 +23,7 @@ namespace MDigital.Feautre.Navigation.Controllers
             {
                 case MediatorCodes.NavigationResponse.DataSourceError:
                 case MediatorCodes.NavigationResponse.ViewModelError:
-                    return View("~/views/Hero/Error.cshtml");
+                    return View("~/views/Navigation/Error.cshtml");
                 case MediatorCodes.NavigationResponse.Ok:
                     return View(mediatorResponse.ViewModel);
                 default:

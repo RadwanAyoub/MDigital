@@ -1,13 +1,17 @@
-﻿using MDigital.Feautre.Navigation.Models;
+﻿using MDigital.Feature.Navigation.Models;
 using System;
 
-namespace MDigital.Feautre.Navigation.Factories
+namespace MDigital.Feature.Navigation.Factories
 {
     public class NavigationFactory : INavigationFactory
     {
-        public NavigationViewModel CreateHeaderNavigationViewModel(object navigationItemDataSource, bool isExperienceEditor)
+        public NavigationViewModel CreateHeaderNavigationViewModel(IHeaderNavigation navigationItemDataSource, bool isExperienceEditor)
         {
-            throw new NotImplementedException();
+            return new NavigationViewModel
+            {
+                HeaderNavigation = navigationItemDataSource,
+                IsExperienceEditor = isExperienceEditor
+            };
         }
     }
 }

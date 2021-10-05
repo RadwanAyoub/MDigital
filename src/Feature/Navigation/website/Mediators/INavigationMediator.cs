@@ -1,7 +1,7 @@
-﻿using MDigital.Feautre.Navigation.Models;
+﻿using MDigital.Feature.Navigation.Models;
 using MDigital.Foundation.Core.Models;
 
-namespace MDigital.Feautre.Navigation.Mediators
+namespace MDigital.Feature.Navigation.Mediators
 {
     public interface INavigationMediator
     {

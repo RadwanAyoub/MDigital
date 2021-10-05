@@ -1,11 +1,11 @@
-﻿using MDigital.Feautre.Navigation.Factories;
-using MDigital.Feautre.Navigation.Models;
-using MDigital.Feautre.Navigation.Services;
+﻿using MDigital.Feature.Navigation.Factories;
+using MDigital.Feature.Navigation.Models;
+using MDigital.Feature.Navigation.Services;
 using MDigital.Foundation.Core.Models;
 using MDigital.Foundation.Core.Services;
-using static MDigital.Feautre.Navigation.Constants;
+using static MDigital.Feature.Navigation.Constants;
 
-namespace MDigital.Feautre.Navigation.Mediators
+namespace MDigital.Feature.Navigation.Mediators
 {
     public class NavigationMediator : INavigationMediator
     {

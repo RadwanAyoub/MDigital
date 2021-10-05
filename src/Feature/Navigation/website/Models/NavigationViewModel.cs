@@ -1,8 +1,8 @@
-﻿namespace MDigital.Feautre.Navigation.Models
+﻿namespace MDigital.Feature.Navigation.Models
 {
     public class NavigationViewModel
     {
-        IHeaderNavigation HeaderNavigation { get; set; }
-        bool IsExperianceEditor { get; }
+        public IHeaderNavigation HeaderNavigation { get; set; }
+        public bool IsExperienceEditor { get; set; }
     }
 }

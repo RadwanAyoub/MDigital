@@ -1,10 +1,10 @@
-﻿using MDigital.Feautre.Navigation.Factories;
-using MDigital.Feautre.Navigation.Mediators;
-using MDigital.Feautre.Navigation.Services;
+﻿using MDigital.Feature.Navigation.Factories;
+using MDigital.Feature.Navigation.Mediators;
+using MDigital.Feature.Navigation.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 
-namespace MDigital.Feautre.Navigation.DI
+namespace MDigital.Feature.Navigation.DI
 {
     public class RegisterContainer : IServicesConfigurator
     {

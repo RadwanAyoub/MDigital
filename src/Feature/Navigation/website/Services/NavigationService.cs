@@ -1,12 +1,14 @@
-﻿using MDigital.Foundation.Content.Repositories;
+﻿using MDigital.Feature.Navigation.Models;
+using MDigital.Foundation.Content.Repositories;
 using MDigital.Foundation.Logging.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static MDigital.Feature.Navigation.Constants;
 
-namespace MDigital.Feautre.Navigation.Services
+namespace MDigital.Feature.Navigation.Services
 {
     public class NavigationService : INavigationService
     {
@@ -24,9 +26,14 @@ namespace MDigital.Feautre.Navigation.Services
 
         public bool IsExperienceEditor => _contextRepository.IsExperienceEditor;
 
-        public object GetHeaderNavigationItems()
+        public IHeaderNavigation GetHeaderNavigationItems()
         {
-            throw new NotImplementedException();
+            var dataSource = _renderingRepository.GetDataSourceItem<IHeaderNavigation>();
+
+            if (dataSource == null)
+                _logRepository.Warn(Logging.Error.DataSourceError);
+
+            return dataSource;
         }
     }
 }

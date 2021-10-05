@@ -25,11 +25,14 @@
 </head>
 <body>
     <header>
-        <h1>@Html.Sitecore().Field("title")</h1>
+        @Html.Sitecore().Placeholder("header")
     </header>
     <main>
         @Html.Sitecore().Placeholder("main")
     </main>
+    <footer>
+        @Html.Sitecore().Placeholder("footer")
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

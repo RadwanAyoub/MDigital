@@ -72,6 +72,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDigital.Website", "src\Web
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{548A7B3D-3E1F-4F43-88D6-95AD9CA81200}"
+	ProjectSection(SolutionItems) = preProject
+		Navigation.module.json = Navigation.module.json
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDigital.Feature.Navigation", "src\Feature\Navigation\website\MDigital.Feature.Navigation.csproj", "{4DE59F8C-A747-44FC-9568-639D4A651CE4}"
 EndProject

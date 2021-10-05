@@ -2,7 +2,7 @@
 using MDigital.Foundation.ORM.Models;
 using System.Collections.Generic;
 
-namespace MDigital.Feautre.Navigation.Models
+namespace MDigital.Feature.Navigation.Models
 {
     public interface IHeaderNavigation : IGlassBase
     {
