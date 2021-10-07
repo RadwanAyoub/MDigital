@@ -7,42 +7,42 @@
   "items": {
     "includes": [
       {
-        "name": "Templates",
+        "name": "CommonTemplates",
         "path": "/sitecore/templates/Project/Common",
         "database": "master"
       },
       {
-        "name": "Renderings",
+        "name": "CommonRenderings",
         "path": "/sitecore/layout/renderings/Project/Common",
         "database": "master"
       },
       {
-        "name": "Layouts",
+        "name": "CommonLayouts",
         "path": "/sitecore/layout/layouts/Project/Common",
         "database": "master"
       },
       {
-        "name": "PlaceholderSettings",
+        "name": "CommonPlaceholderSettings",
         "path": "/sitecore/layout/placeholder settings/Project/Common",
         "database": "master"
       },
       {
-        "name": "UserProfiles",
+        "name": "CommonUserProfiles",
         "path": "/sitecore/system/Settings/Security/Profiles/Common",
         "database": "core"
       },
       {
-        "name": "SystemLanguages",
+        "name": "CommonSystemLanguages",
         "path": "/sitecore/system/Languages",
         "database": "master"
       },
       {
-        "name": "Media",
+        "name": "CommonMedia",
         "path": "/sitecore/media library/Project/Common",
         "database": "master"
       },
       {
-        "name": "BucketSettings",
+        "name": "CommonBucketSettings",
         "path": "/sitecore/system/Settings/Buckets/Item Buckets Settings",
         "database": "master"
       }

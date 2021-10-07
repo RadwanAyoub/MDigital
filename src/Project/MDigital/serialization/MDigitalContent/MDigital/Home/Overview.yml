@@ -1,0 +1,30 @@
+﻿---
+ID: "7951ded5-3822-4e4d-a366-71cd7e8c2c6b"
+Parent: "f3c6a278-b056-4c1a-be62-a784a457d82e"
+Template: "52178a97-41ab-4af9-9162-0846632aa388"
+Path: /sitecore/content/MDigital/Home/Overview
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211007T003338Z
+    - ID: "368a4a07-dd83-4fed-9d42-5bb320d62781"
+      Hint: Title
+      Value: Overview
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "129204fc-8bb2-42a3-bdb0-3f4c1b6f30b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T004008Z

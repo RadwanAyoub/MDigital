@@ -1,0 +1,30 @@
+﻿---
+ID: "2a7ff795-ca4b-48aa-b00c-713c0f6d27e5"
+Parent: "5138b10b-cfc0-4de0-84d4-e839d81f205d"
+Template: "4b3aa55f-3288-41ac-a1f2-3938f25faa6d"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation/BREW GUIDES/AeroPress Brewing Guide
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T193520Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fd0c01a-bad8-4187-936c-07ed1aeac878"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6952118-82c0-4216-b430-7cb1c8af383a"
+      Hint: LinkUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{24DC8999-1C76-45C8-98A0-B7909687D071}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T114231Z
+    - ID: "e52bb558-7157-4539-b7e7-78466eac4dcb"
+      Hint: LinkText
+      Value: AeroPress Brewing Guide

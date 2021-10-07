@@ -1,0 +1,30 @@
+﻿---
+ID: "c2f243b2-0273-42cb-99ae-7138f762ae3c"
+Parent: "f723cbc5-d620-469d-9074-1858803419c9"
+Template: "4b3aa55f-3288-41ac-a1f2-3938f25faa6d"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation/CLASSES/Class Calendar
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T193454Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7cf8d2e-ac35-4334-a7e4-7b20c5e30669"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6952118-82c0-4216-b430-7cb1c8af383a"
+      Hint: LinkUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{40FEBDFB-F1BB-4FED-9F6F-CBFBA3A7A9EF}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T114209Z
+    - ID: "e52bb558-7157-4539-b7e7-78466eac4dcb"
+      Hint: LinkText
+      Value: Class Calendar

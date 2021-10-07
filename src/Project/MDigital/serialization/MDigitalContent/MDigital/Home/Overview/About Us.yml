@@ -1,0 +1,26 @@
+﻿---
+ID: "c1c00866-b2f3-4378-ab5f-c67d7a15925d"
+Parent: "7951ded5-3822-4e4d-a366-71cd7e8c2c6b"
+Template: "dffd34e5-3e67-4aaf-9c0f-99734c4ff2e2"
+Path: /sitecore/content/MDigital/Home/Overview/About Us
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211007T003703Z
+    - ID: "368a4a07-dd83-4fed-9d42-5bb320d62781"
+      Hint: Title
+      Value: About Us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6048c5c-202a-4013-b6b5-701f6a150a31"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T003703Z

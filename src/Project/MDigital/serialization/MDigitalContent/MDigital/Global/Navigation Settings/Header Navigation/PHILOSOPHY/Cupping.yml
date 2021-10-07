@@ -1,0 +1,30 @@
+﻿---
+ID: "4242e7d3-3e31-48e3-a5a6-e3a852a57da0"
+Parent: "e159418b-12ca-40db-af40-48f08460c08e"
+Template: "4b3aa55f-3288-41ac-a1f2-3938f25faa6d"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation/PHILOSOPHY/Cupping
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T193420Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c05ff6e-f33e-4852-ae52-f11b318d646d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6952118-82c0-4216-b430-7cb1c8af383a"
+      Hint: LinkUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{68CA5B70-DF0B-4043-931D-BAFAA9053FEC}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T114135Z
+    - ID: "e52bb558-7157-4539-b7e7-78466eac4dcb"
+      Hint: LinkText
+      Value: Cupping

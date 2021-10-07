@@ -1,0 +1,33 @@
+﻿---
+ID: "87e99e08-d453-4310-a267-43c5b94857fb"
+Parent: "f3c6a278-b056-4c1a-be62-a784a457d82e"
+Template: "52178a97-41ab-4af9-9162-0846632aa388"
+Path: /sitecore/content/MDigital/Home/Shop Coffee
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211007T003250Z
+    - ID: "368a4a07-dd83-4fed-9d42-5bb320d62781"
+      Hint: Title
+      Value: Shop Coffee
+    - ID: "4f6a24e6-db6e-4190-ade2-27b9b8bf28f4"
+      Hint: IncludeInNavigation
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0e0d63c-f1f2-4acd-a8c3-4d0833e04122"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T003954Z

@@ -1,0 +1,26 @@
+﻿---
+ID: "68ca5b70-df0b-4043-931d-bafaa9053fec"
+Parent: "2c455bb7-0f7c-4c2c-81ea-a4f6d4e011ff"
+Template: "dffd34e5-3e67-4aaf-9c0f-99734c4ff2e2"
+Path: /sitecore/content/MDigital/Home/Philosophy/Cupping
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211007T003926Z
+    - ID: "368a4a07-dd83-4fed-9d42-5bb320d62781"
+      Hint: Title
+      Value: Cupping
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1811c52a-1d2e-4372-82b4-9a5b0a76328c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T003926Z

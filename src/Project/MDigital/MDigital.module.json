@@ -8,52 +8,47 @@
   "items": {
     "includes": [
       {
-        "name": "Templates",
+        "name": "MDigitalTemplates",
         "path": "/sitecore/templates/Project/MDigital",
         "database": "master"
       },
       {
-        "name": "Renderings",
+        "name": "MDigitalRenderings",
         "path": "/sitecore/layout/renderings/Project/MDigital",
         "database": "master"
       },
       {
-        "name": "Layouts",
+        "name": "MDigitalLayouts",
         "path": "/sitecore/layout/layouts/Project/MDigital",
         "database": "master"
       },
       {
-        "name": "PlaceholderSettings",
+        "name": "MDigitalPlaceholderSettings",
         "path": "/sitecore/layout/placeholder settings/Project/MDigital",
         "database": "master"
       },
       {
-        "name": "Models",
-        "path": "/sitecore/layout/models/Project/MDigital",
-        "database": "master"
-      },
-      {
-        "name": "Content",
+        "name": "MDigitalContent",
         "path": "/sitecore/content/MDigital",
         "database": "master"
       },
       {
-        "name": "Media",
+        "name": "MDigitalMedia",
         "path": "/sitecore/media library/Project/MDigital",
         "database": "master"
       },
       {
-        "name": "Profiling",
+        "name": "MDigitalProfiling",
         "path": "/sitecore/system/Marketing Control Panel/Profiles/MDigital",
         "database": "master"
       },
       {
-        "name": "Outcomes",
+        "name": "MDigitalOutcomes",
         "path": "/sitecore/system/Marketing Control Panel/Outcomes/MDigital",
         "database": "master"
       },
       {
-        "name": "Campaigns",
+        "name": "MDigitalCampaigns",
         "path": "/sitecore/system/Marketing Control Panel/Campaigns/MDigital",
         "database": "master"
       }

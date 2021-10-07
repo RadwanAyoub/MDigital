@@ -1,0 +1,40 @@
+﻿---
+ID: "0751bc9b-339b-45a1-bf4d-42e2e30affac"
+Parent: "d664b35e-4720-4ea0-a6b8-3b654b961192"
+Template: "95c2152b-1ae7-4a5a-9129-cc72a98dcac2"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation/OVERVIEW
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T190004Z
+    - ID: "4f6a24e6-db6e-4190-ade2-27b9b8bf28f4"
+      Hint: IncludeInNavigation
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbb4bfd0-bba3-4818-bca7-4468fc494e51"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6952118-82c0-4216-b430-7cb1c8af383a"
+      Hint: LinkUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C1C00866-B2F3-4378-AB5F-C67D7A15925D}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T015532Z
+    - ID: "e52bb558-7157-4539-b7e7-78466eac4dcb"
+      Hint: LinkText
+      Value: OVERVIEW
