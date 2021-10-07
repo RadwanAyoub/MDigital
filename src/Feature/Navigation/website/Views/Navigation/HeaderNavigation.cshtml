@@ -1,3 +1,152 @@
-﻿@model MDigital.Feature.Navigation.Models.NavigationViewModel
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using MDigital.Feature.Navigation.Models
+@model MDigital.Feature.Navigation.ViewModels.NavigationViewModel
 
-<h1>Header Navigation Rendered Successfully</h1>
+@if (Model == null || Model.HeaderNavigation == null) { return; }
+
+@{
+    var headerNavigation = Model.HeaderNavigation;
+}
+
+<!-- Header -->
+<div class="header">
+    <!-- Top bar -->
+    <div class="top">
+        <div class="container">
+            <div class="row">
+                <div class="span6 hidden-phone">
+                    @Html.Glass().Editable(Model.HeaderNavigation, h => h.HeaderAd)
+                </div>
+                <div class="span6">
+                    <ul class="inline pull-right">
+                        <li>
+                            @using (Html.Glass().BeginRenderLink(Model.HeaderNavigation, h => h.UserAccountUrl, isEditable: true, alwaysRender: true))
+                            {
+                                @Html.Glass().Editable(headerNavigation, h => h.UserAccountLabel);
+                            }
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End class="top" -->
+    <!-- Logo & Search bar -->
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="span8">
+                    <div class="logo">
+                        <a href="/"
+                           title="←Back home">
+                            @Html.Glass().RenderImage(headerNavigation, s => s.Logo, isEditable: true)
+                        </a>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="row-fluid">
+                        <div class="span8 offset2">
+                            <!-- Search -->
+                            <div class="search">
+                                <div class="qs_s">
+                                    <form method="get"
+                                          action="https://www.greenstreetcoffee.com/"
+                                          role="search">
+                                        <input type="text"
+                                               name="s"
+                                               id="query"
+                                               placeholder="Search…"
+                                               autocomplete="off"
+                                               value="" />
+                                        <input type="submit"
+                                               value="Search"
+                                               id="searchsubmit" />
+                                        <input type="hidden"
+                                               value="product"
+                                               name="post_type" />
+                                    </form>
+
+                                    <!-- Autocomplete results -->
+                                    <div id="autocomplete-results"></div>
+                                    <!-- End id="autocomplete-results" -->
+                                </div>
+                            </div>
+                            <!-- End class="search"-->
+                        </div>
+                        <div class="span2">
+                            <!-- Mini cart -->
+                            <div class="mini-cart">
+                                <a href="https://www.greenstreetcoffee.com/cart"
+                                   title="Cart">
+                                    <span>0</span>
+                                </a>
+                            </div>
+                            <!-- End class="mini-cart" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End class="bottom" -->
+</div>
+<!-- End class="header" -->
+<!-- Navigation -->
+<nav class="navigation visible-desktop">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <a href="https://www.greenstreetcoffee.com/#"
+                   class="main-menu-button">Navigation</a>
+                <!-- Begin Menu Container -->
+                <div class="megamenu_container">
+                    <div class="menu-sidebar-container">
+                        @if (headerNavigation.SecondaryNavigationItems != null && headerNavigation.SecondaryNavigationItems.Any())
+                        {
+                            <ul id="menu-sidebar" class="main-menu">
+                                @foreach (var secondaryLink in headerNavigation.SecondaryNavigationItems)
+                                {
+                                    if (secondaryLink.IncludeInNavigation)
+                                    {
+                                        var identifier = secondaryLink.Id.ToString().Substring(0, 4);
+                                        var classes = secondaryLink.TertiaryNavigationItems != null &&
+                                            secondaryLink.TertiaryNavigationItems.Any() ?
+                                            "menu-item-type-custom menu-item-object-custom menu-item-has-children megamenu-heading" :
+                                            "menu-item-type-taxonomy menu-item-object-product_cat";
+                                        <li id="menu-item-@identifier"
+                                            class="menu-item @classes menu-item-@identifier">
+                                            @using (Html.Glass().BeginRenderLink(secondaryLink, s => s.LinkUrl, isEditable: true, alwaysRender: true))
+                                            {
+                                                using (Html.Glass().BeginEditFrame("/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Feature/Navigation/Header Navigation", secondaryLink.Id.ToString(), "Edit Secondary Navigation"))
+                                                {
+                                                    @Html.Glass().Editable(secondaryLink, s => s.LinkText)
+                                                }
+                                            }
+                                            @if (secondaryLink.TertiaryNavigationItems != null && secondaryLink.TertiaryNavigationItems.Any())
+                                            {
+                                                <ul class="sub-menu span2">
+                                                    @foreach (var tertiaryLink in secondaryLink.TertiaryNavigationItems)
+                                                    {
+                                                        <li id="menu-item-@identifier"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-@identifier">
+                                                            @using (Html.Glass().BeginRenderLink(tertiaryLink, s => s.LinkUrl, isEditable: true, alwaysRender: true))
+                                                            {
+                                                                @Html.Glass().Editable(tertiaryLink, s => s.LinkText)
+                                                            }
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            }
+                                        </li>
+                                    }
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="span4"></div>
+        </div>
+    </div>
+</nav>
+<!-- End class="Navigation" -->

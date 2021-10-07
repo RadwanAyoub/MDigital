@@ -1,4 +1,5 @@
-﻿using Glass.Mapper.Sc.Maps;
+﻿using Glass.Mapper.Sc.Configuration;
+using Glass.Mapper.Sc.Maps;
 using MDigital.Feature.Navigation.Models;
 using static MDigital.Feature.Navigation.Constants;
 

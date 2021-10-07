@@ -1,4 +1,6 @@
-﻿namespace MDigital.Feature.Navigation.Models
+﻿using MDigital.Feature.Navigation.Models;
+
+namespace MDigital.Feature.Navigation.ViewModels
 {
     public class NavigationViewModel
     {

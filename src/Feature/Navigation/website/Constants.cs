@@ -1,5 +1,8 @@
 ﻿namespace MDigital.Feature.Navigation
 {
+    /// <summary>
+    /// Navigation Feature Constants.
+    /// </summary>
     public class Constants
     {
         public static class Components

@@ -6,6 +6,9 @@ using static MDigital.Feature.Navigation.Constants;
 
 namespace MDigital.Feature.Navigation.Controllers
 {
+    /// <summary>
+    /// Navigation controller.
+    /// </summary>
     public class NavigationController : SitecoreController
     {
         private readonly INavigationMediator _navigationMediator;
@@ -14,7 +17,11 @@ namespace MDigital.Feature.Navigation.Controllers
         {
             _navigationMediator = navigationMediator;
         }
-
+        
+        /// <summary>
+        /// Header navigation action
+        /// </summary>
+        /// <returns>Header navigation view.</returns>
         public ActionResult HeaderNavigation()
         {
             var mediatorResponse = _navigationMediator.RequestHeaderNavigationViewModel();

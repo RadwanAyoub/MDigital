@@ -1,12 +1,15 @@
 ﻿using MDigital.Feature.Navigation.Factories;
-using MDigital.Feature.Navigation.Models;
 using MDigital.Feature.Navigation.Services;
+using MDigital.Feature.Navigation.ViewModels;
 using MDigital.Foundation.Core.Models;
 using MDigital.Foundation.Core.Services;
 using static MDigital.Feature.Navigation.Constants;
 
 namespace MDigital.Feature.Navigation.Mediators
 {
+    /// <summary>
+    /// Navigation Mediator.
+    /// </summary>
     public class NavigationMediator : INavigationMediator
     {
         private readonly INavigationService _navigationService;
@@ -21,6 +24,10 @@ namespace MDigital.Feature.Navigation.Mediators
             _navigationFactory = navigationFactory;
         }
 
+        /// <summary>
+        /// Header Navigation View Model Mediator
+        /// </summary>
+        /// <returns>MediatorResponse of Navigation View Model</returns>
         public MediatorResponse<NavigationViewModel> RequestHeaderNavigationViewModel()
         {
             var navigationItemDataSource = _navigationService.GetHeaderNavigationItems();

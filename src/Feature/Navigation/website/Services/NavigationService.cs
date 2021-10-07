@@ -10,6 +10,9 @@ using static MDigital.Feature.Navigation.Constants;
 
 namespace MDigital.Feature.Navigation.Services
 {
+    /// <summary>
+    /// Navigation Service Class.
+    /// </summary>
     public class NavigationService : INavigationService
     {
         private readonly IContextRepository _contextRepository;
@@ -24,8 +27,15 @@ namespace MDigital.Feature.Navigation.Services
             _renderingRepository = renderingRepository;
         }
 
+        /// <summary>
+        /// Getting the experiance editor bool value
+        /// </summary>
         public bool IsExperienceEditor => _contextRepository.IsExperienceEditor;
 
+        /// <summary>
+        /// Getting Header Navigation Datasource Item.
+        /// </summary>
+        /// <returns>Header Navigation Model.</returns>
         public IHeaderNavigation GetHeaderNavigationItems()
         {
             var dataSource = _renderingRepository.GetDataSourceItem<IHeaderNavigation>();

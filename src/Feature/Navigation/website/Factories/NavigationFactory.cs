@@ -1,4 +1,5 @@
 ﻿using MDigital.Feature.Navigation.Models;
+using MDigital.Feature.Navigation.ViewModels;
 using System;
 
 namespace MDigital.Feature.Navigation.Factories

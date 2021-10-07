@@ -1,4 +1,4 @@
-﻿using MDigital.Feature.Navigation.Models;
+﻿using MDigital.Feature.Navigation.ViewModels;
 using MDigital.Foundation.Core.Models;
 
 namespace MDigital.Feature.Navigation.Mediators
