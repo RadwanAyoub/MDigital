@@ -1,0 +1,47 @@
+﻿---
+ID: "d664b35e-4720-4ea0-a6b8-3b654b961192"
+Parent: "a299c1dd-c9e3-42c5-958f-1f31bca5821d"
+Template: "61243af8-a0bd-4d1c-ab0d-29e59e8357de"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T185903Z
+    - ID: "2d7e42cb-3405-45a1-943d-b16f8b5ab927"
+      Hint: HeaderAd
+      Value: |
+        <p>
+        FREE SHIPPING on coffee when you spend $50 or more!
+        <a href="https://www.greenstreetcoffee.com/product-category/coffee/">
+        SHOP NOW!
+        </a>
+        </p>
+        
+    - ID: "488b6570-a86e-4994-86bc-12d950208925"
+      Hint: Logo
+      Value: |
+        <image mediaid="{F01BF8EA-55E5-485B-A0F7-DB033A2CB2C5}" alt="Logo" height="" width="" hspace="" vspace="" />
+    - ID: "7f42498b-afc7-4b77-a371-f4499b048b89"
+      Hint: UserAccountUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{F3C6A278-B056-4C1A-BE62-A784A457D82E}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42172d5c-dbf8-43c8-b129-557b893199b3"
+    - ID: "9bc489ec-29c1-4e3d-a8fb-ca2f2ab8a9f4"
+      Hint: UserAccountLabel
+      Value: login / register
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T015316Z

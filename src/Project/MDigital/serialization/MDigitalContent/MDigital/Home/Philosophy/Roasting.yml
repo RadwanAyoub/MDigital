@@ -1,0 +1,26 @@
+﻿---
+ID: "7beac690-6fed-41bc-b1e7-94878b184501"
+Parent: "2c455bb7-0f7c-4c2c-81ea-a4f6d4e011ff"
+Template: "dffd34e5-3e67-4aaf-9c0f-99734c4ff2e2"
+Path: /sitecore/content/MDigital/Home/Philosophy/Roasting
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211007T003934Z
+    - ID: "368a4a07-dd83-4fed-9d42-5bb320d62781"
+      Hint: Title
+      Value: Roasting
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5d5b04c-6b5f-4f6c-8585-bbcfcc54ef0d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T003934Z

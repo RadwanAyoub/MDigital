@@ -1,0 +1,33 @@
+﻿---
+ID: "f723cbc5-d620-469d-9074-1858803419c9"
+Parent: "d664b35e-4720-4ea0-a6b8-3b654b961192"
+Template: "95c2152b-1ae7-4a5a-9129-cc72a98dcac2"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation/CLASSES
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T190132Z
+    - ID: "4f6a24e6-db6e-4190-ade2-27b9b8bf28f4"
+      Hint: IncludeInNavigation
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3f85057-2aa6-46ca-ae16-e5c1e3070c62"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6952118-82c0-4216-b430-7cb1c8af383a"
+      Hint: LinkUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{72E24FC8-5079-4A15-AEA5-348DB0B7EC0F}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T004110Z
+    - ID: "e52bb558-7157-4539-b7e7-78466eac4dcb"
+      Hint: LinkText
+      Value: CLASSES

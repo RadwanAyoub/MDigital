@@ -1,62 +1,57 @@
 {
-    "namespace": "Project.Helixbase",
-    "references": [
-        "Foundation.*",
-        "Feature.*",
-        "Project.Common"
-    ],
-    "items": {
-        "includes": [
-            {
-                "name": "Templates",
-                "path": "/sitecore/templates/Project/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Renderings",
-                "path": "/sitecore/layout/renderings/Project/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Layouts",
-                "path": "/sitecore/layout/layouts/Project/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "PlaceholderSettings",
-                "path": "/sitecore/layout/placeholder settings/Project/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Models",
-                "path": "/sitecore/layout/models/Project/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Content",
-                "path": "/sitecore/content/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Media",
-                "path": "/sitecore/media library/Project/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Profiling",
-                "path": "/sitecore/system/Marketing Control Panel/Profiles/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Outcomes",
-                "path": "/sitecore/system/Marketing Control Panel/Outcomes/Helixbase",
-                "database": "master"
-            },
-            {
-                "name": "Campaigns",
-                "path": "/sitecore/system/Marketing Control Panel/Campaigns/Helixbase",
-                "database": "master"
-            }
-        ]
-    }
+  "namespace": "Project.MDigital",
+  "references": [
+    "Foundation.*",
+    "Feature.*",
+    "Project.Common"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "MDigitalTemplates",
+        "path": "/sitecore/templates/Project/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalRenderings",
+        "path": "/sitecore/layout/renderings/Project/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalLayouts",
+        "path": "/sitecore/layout/layouts/Project/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalPlaceholderSettings",
+        "path": "/sitecore/layout/placeholder settings/Project/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalContent",
+        "path": "/sitecore/content/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalMedia",
+        "path": "/sitecore/media library/Project/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalProfiling",
+        "path": "/sitecore/system/Marketing Control Panel/Profiles/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalOutcomes",
+        "path": "/sitecore/system/Marketing Control Panel/Outcomes/MDigital",
+        "database": "master"
+      },
+      {
+        "name": "MDigitalCampaigns",
+        "path": "/sitecore/system/Marketing Control Panel/Campaigns/MDigital",
+        "database": "master"
+      }
+    ]
+  }
 }

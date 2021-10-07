@@ -1,0 +1,30 @@
+﻿---
+ID: "4a86deb7-7eaa-402c-b0cd-d60238716583"
+Parent: "0751bc9b-339b-45a1-bf4d-42e2e30affac"
+Template: "4b3aa55f-3288-41ac-a1f2-3938f25faa6d"
+Path: /sitecore/content/MDigital/Global/Navigation Settings/Header Navigation/OVERVIEW/About Us
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211005T190212Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6595e0f-d316-4442-92f2-87b5ba76dc4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c6952118-82c0-4216-b430-7cb1c8af383a"
+      Hint: LinkUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C1C00866-B2F3-4378-AB5F-C67D7A15925D}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T114050Z
+    - ID: "e52bb558-7157-4539-b7e7-78466eac4dcb"
+      Hint: LinkText
+      Value: About Us
