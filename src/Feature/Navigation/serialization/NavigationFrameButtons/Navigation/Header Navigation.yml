@@ -1,0 +1,23 @@
+﻿---
+ID: "bc8f0a31-99f5-47fe-8019-e672b0f06ea6"
+Parent: "27ba00f5-4a07-4f45-99e0-32f4ac4afe8a"
+Template: "b0666cfe-8c7b-4cc1-8e32-8253742ebfa9"
+Path: /sitecore/content/Applications/WebEdit/Edit Frame Buttons/Feature/Navigation/Header Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211007T015723Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8c1b9665-4b26-43ce-84b8-916c4f1e2315"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211007T015732Z
